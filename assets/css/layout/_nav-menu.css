@@ -50,13 +50,18 @@
 .nav-submenu{
     animation: showFade .5s;
     background: #141414;
-    border: .1px solid #393939;
+    border: .1rem solid #393939;
     border-radius: .5rem;
     display: none;
-    padding: 0.4rem 0rem;
-    position: relative;
-    top: -3.8rem;
+    margin: -2rem;
+    padding: 0.4rem 0;
+    position: absolute;
 }
+
+.nav-submenu.active{
+    display: block;
+}
+
 .nav-submenu__text{
     margin-left: 1.2rem;
     position: relative;

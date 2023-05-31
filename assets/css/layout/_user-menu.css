@@ -57,8 +57,14 @@
     display: none;
 }
 
+
 .user-menu:hover .show-hover,
 .user-menu:hover .user-profile__title{
+    display: block;
+}
+
+.user-menu.active .show-hover,
+.user-menu.active .user-profile__title{
     display: block;
 }
 
@@ -72,6 +78,6 @@
         width: 3.6rem;
     }
     .user-menu__current-profile{
-        padding: 3.2rem 3.2rem;
+        padding-top: 1.9rem;
     }
 }
